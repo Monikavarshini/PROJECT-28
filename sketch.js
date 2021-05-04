@@ -97,13 +97,8 @@ function mouseReleased()
 
 function keyPressed(){
 	if (keyCode === 32){
-		stone1=new stone(133,626,45)
-	chain1=new chain(stone1.body,{x:133,y:626})
-	Mango1 = new mango(479,416,40);
-	Mango2 = new mango(446,430,40);
-	Mango3 = new mango(505,477,40);
-	Mango4 = new mango(442,479,40);
-	Mango5 = new mango(520,500,40);
+	chain1.attach(stone1.body)
+	
 	}
 }
 

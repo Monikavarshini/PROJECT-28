@@ -18,6 +18,15 @@ class chain {
        {
         this.chain1.bodyA=null;
        }
+    
+      attach(body){
+      this.chain.bodyA=body
+      
+      
+      
+      
+      
+      }
        
 
       
